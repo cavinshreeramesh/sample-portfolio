@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Portfolio </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <!--Nav Bar-->
+        <nav>
+            <div class = "web-name">
+                <div class = "logo-img">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class = "logo-name">
+                    <p>Jane Doe <br> <i class="fa-solid fa-envelope"></i> janedoe@email.com</p>
+                </div>
+            </div>
+            <div class = "navbar-links">
+                <a class = "navlink" href = "#About"> About</a>
+                <a class = "navlink" href = "#Skills"> Skills</a>
+                <a class = "navlink" href = "#Projects"> Projects</a>
+                <a class = "navlink" href = "#Recommendations"> Recommendations</a>
+            </div>
+        </nav>
+
+        <!--About-->
+        <section id = "About">
+            <p class = "title">About Me</p>
+            <div class = "container">
+                <img class = "profile-pic" src = 'assets/developer.png' alt = 'profile pic'>
+                <div class = "profile-desc">
+                    <div class = "profile-desc-title"> 
+                        Hello! <br> I'm Jane Doe.
+                        <p class = "profile-desc-content">I am a full stack developer with 2 years of experience in both application and presentation layers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills-->
+        <section id = "Skills">
+            <p class = "title">Skills</p>
+            <div class = "container-skills">
+                <div class = "skills-cell">
+                    <img src = "assets/html-icon.png" class = "skills-img">
+                    <p>HTML</p>
+                    <p class = "skills-desc">2 years experience</p>
+                </div>
+                <div class = "skills-cell">
+                    <img src = "assets/css-icon.png" class = "skills-img">
+                    <p>CSS</p>
+                    <p class = "skills-desc">2 years experience</p>
+                </div>
+                <div class = "skills-cell">
+                    <img src = "assets/java-script-icon.png" class = "skills-img">
+                    <p>JavaScript</p>
+                    <p class = "skills-desc">1 years experience</p>
+                </div>
+            </div>
+            <div class = "container-skills">
+                <div class = "skills-cell">
+                    <img src = "assets/java-icon.png" class = "skills-img">
+                    <p>Java</p>
+                    <p class = "skills-desc">1 years experience</p>
+                </div>
+                <div class = "skills-cell">
+                    <img src = "assets/react-icon.png" class = "skills-img">
+                    <p>React</p>
+                    <p class = "skills-desc">.5 years experience</p>
+                </div>
+                <div class = "skills-cell">
+                    <img src = "assets/python-icon.png" class = "skills-img">
+                    <p>Python</p>
+                    <p class = "skills-desc">3 years experience</p>
+                </div>
+            </div>
+            <div class = "container-skills">
+                <div class = "skills-cell">
+                    <img src = "assets/cpp-icon.png" class = "skills-img">
+                    <p>C++</p>
+                    <p class = "skills-desc">2.5 years experience</p>
+                </div>
+                <div class = "skills-cell">
+                    <img src = "assets/nodejs-icon.png" class = "skills-img">
+                    <p>Node.js</p>
+                    <p class = "skills-desc">.5 years experience</p>
+                </div>
+                <div class = "skills-cell">
+                    <img src = "assets/sql-icon.png" class = "skills-img">
+                    <p>SQL</p>
+                    <p class = "skills-desc">1 years experience</p>
+                </div>
+            </div>
+        </section>
+
+        <!--Projects-->
+        <section id = "Projects">
+            <p class = "title">Projects</p>
+                <div class = "container-projects">
+                    <div class = "project">Escape Room
+                        <ul class = "project-desc"><li>Developed a text based escape room game using Python</li></ul>
+                    </div>
+                    <hr>
+                    <div class = "project">E-Commerce Website
+                        <ul class = "project-desc"><li>Developed and deployed an eCommerce platform using IBM NLU for a client</li></ul>
+                    </div>
+                    <hr>
+                    <div class = "project">Deepfake Detector
+                        <ul class = "project-desc"><li>Developed a Deepfake Detection program using a LSTM model</li></ul>
+                    </div>
+                </div>
+        </section>
+
+        <!--Recommendations-->
+        <section id = "Recommendations">
+            <p class = "title">Recommendations</p>
+            <div class = "recs-container">
+                <div class = "recs">'I wholeheartedly recommend Jane Doe. During our time working together at our organisation, she consistently demonstrated exceptional dedication, creativity, and leadership. Her ability to work with her team was instrumental in completing her internship. Beyond her technical skills, Jane Doe fosters collaboration and inspires those around her. I am confident she will excel in Webdev.'</div>
+                <div class = "recs">'Jane Doe has my full recommendation for the project head role. She consistently displayed exceptional leadership skills during her project. Her ability to inspire others, make strategic decisions, and deliver results under pressure sets her apart. I am confident she will excel and lead with integrity in this role.'</div>
+                <div class = "recs">'I am delighted to recommend Jane Doe, with whom I had the pleasure of working closely at our organisation. Jane consistently brought exceptional professionalism, collaboration, and creativity to our team. Her ability to approach challenges with innovative solutions and her commitment to achieving team goals made her an invaluable colleague. I am confident she will bring the same energy and expertise to her next role, and I wholeheartedly recommend her.'</div>
+            </div>
+            <input type = "text" id = "recs-input" class = "recs-input" placeholder = "Type Recommendation">
+            <button class = "submit-button" id = "submit-button">Submit</button>
+        </section>
+
+        <footer>
+            <div> Icons made by <a href="https://www.flaticon.com/authors/buandesign" title="Buandesign"> Buandesign </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+        </footer>
+
+        <script src = "/script/script.js"></script>
+    </body>
+</html>
