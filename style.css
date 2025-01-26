@@ -1,0 +1,248 @@
+/* jersey-15-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Jersey 15';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/jersey-15-v2-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-display: block;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jersey 15', Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FFFD98;
+    color: #7A9CC6;
+}
+
+nav{
+    display: flex;
+    background-color: #7A9CC6;
+    color: #FFFD98;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.logo-img{
+    font-size: 50px;
+    display: inline-block;
+}
+
+.logo-name{
+    margin-left: 10px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+.navlink{
+    color: #BDE4A7;
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.navlink:hover{
+    color: #283044;
+    font-style: oblique;
+    text-shadow: 2px 2px 5px #283044;
+    cursor: pointer;
+}
+
+.web-name{
+    display: inline-block
+}
+
+.navbar-links{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    float: right;
+    padding-right: 60px;
+}
+
+#About{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#Skills{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #7A9CC6;
+    color: #FFFD98;
+}
+
+#Projects{
+    padding-top: 150px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #BDE4A7;
+    color: #7A9CC6;
+}
+
+#Recommendations{
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    height: 100%;
+    width: 100%;
+    background-color: #283044;
+    color: #7A9CC6;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 100px;
+    text-align: center;
+}
+
+.profile-pic{
+    width: 300px;
+}
+
+.profile-desc{
+    display: flex;
+}
+
+.profile-desc-title{
+    font-size: 50px;
+}
+
+.profile-desc-content{
+    font-size: 30px;
+    color: #9FBBCC;
+    width: 500px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container-skills{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-cell{
+    background-color: #283044;
+    color: #FFFD98;
+    border-radius: 25px;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px 0px 20px #283044;
+    margin: 20px;
+}
+
+.skills-desc{
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.skills-img{
+    height: 30px;
+    width: 30px;
+}
+
+.container-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project{
+    text-align: left;
+    font-size: 45px;
+    width: 800px;
+}
+
+.project-desc{
+    font-size: 30px;
+    text-align: left;
+    margin-left: 70px;
+    color: #283044;
+}
+
+.recs-container{
+    display: grid;
+    place-items: center;
+}
+
+hr{
+    width: 50%;
+    margin: 20px;
+    border-color: #283044;
+}
+
+.recs{
+    width: 700px;
+    border-radius: 25px;
+    background-color: #7A9CC6;
+    color: #283044;
+    margin: 15px 0px 15px 0px;
+    font-size: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.submit-button{
+    background-color: #FFFD98;
+    color: #283044;
+    border-radius: 25px;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.submit-button:hover{
+    box-shadow: 5px 5px 15px #FFFD98;
+    cursor: pointer;
+}
+
+.recs-input{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #283044;
+}
+
+.footer-links{
+    text-decoration: none;
+}
